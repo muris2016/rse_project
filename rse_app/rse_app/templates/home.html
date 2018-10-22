@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block menu %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}" />
+<title>Home</title>
+<div class="div_home">
+{{context.nombre}}
+</div>
+{% endblock %}

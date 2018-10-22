@@ -1,0 +1,48 @@
+{% load staticfiles %}
+<HTML>
+<head>
+	<meta charset="UTF-8">
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/sweetalert.css' %}"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/jquery-ui.css' %}"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/select2.min.css' %}"/>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'css/visualization.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'css/select2.min.css' %}" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+	<!-- JS Files -->
+	<script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery-1.12.4.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/jquery-ui.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/angular.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/ui-bootstrap-tpls-0.11.0.js' %}"></script><!--Paginacion-->
+	<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/bootstrap-filestyle.min.js' %}"> </script>
+	<script type="text/javascript" src="{% static 'js/sanitize1.2.16.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/sweetalert.min.js' %}"> </script>
+	<script type="text/javascript" src="{% static 'js/fileSaver.js' %}"> </script>
+	<script type="text/javascript" src="{% static 'js/base.js' %}"></script>
+	<script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.full.min.js"></script>
+	<script type="text/javascript" src="{% static 'js/visualizationController.js' %}"> </script>
+
+</head>
+
+<body ng-app="rseApp" >
+	{% block header %}
+		{% include 'header.html' %}
+	{% endblock %}
+
+	{% block main_menu %}
+	<div class="contentPage">
+		<div id ="home" class="div_home">
+			{% block menu %}
+			{% endblock %}
+		</div>
+	</div>
+	{% endblock %}
+	
+</body>
+</HTML>

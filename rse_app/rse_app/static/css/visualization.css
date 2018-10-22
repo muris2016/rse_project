@@ -1,0 +1,76 @@
+.content{
+	overflow:	auto;
+}
+
+
+.row{	
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+#chart_container{
+	width: 551px;
+    height: 391px;
+	overflow:hidden;
+	border-radius:	3px;
+	border:	2px	solid #888;
+	position:	relative;
+	margin: 0 auto;
+    padding: 5px;
+}
+#chart_div{
+	margin-left: -378px;
+    margin-top: -237px;
+	position:	absolute;
+}
+#canarias_chart_container{
+	width: 169px;
+    height: 83px;
+	position:	fixed;
+	bottom:	0;
+	left:	0;
+	overflow:hidden;
+	border-radius:	3px;
+    border-top: 2px solid #888;
+    border-right: 2px solid #888;
+	position:	absolute;
+}
+
+#canarias_chart_div
+{
+	margin-left: -186px;
+    margin-top: -792px;
+
+}
+
+.icon{
+    content: '';
+    background:url('static/imagenes/spain_icon.png');
+    background-size:cover;
+    position:absolute;
+    width:100px;
+    height:100px;
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.fa {
+	margin-right: 5px !important;
+}
+.fas {
+	margin-right: 5px !important;
+}
+
+.panel-body{
+	padding-left: 20px;
+}
+
+.spain_icon{
+	margin-bottom: 3px;
+	width:15px;
+}

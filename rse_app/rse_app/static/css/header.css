@@ -1,0 +1,31 @@
+/* Estilo de la barra azul */
+.blueBar{
+	width: 100%;
+	height: 15px;
+	margin-bottom: 5px;
+	background-color: #014495;
+	background-image: -webkit-gradient(linear, left top,left bottom, from(#014495), to(#a6abb1));
+}
+
+
+.main-tittle	{
+	font-family: 'neutra_text',Helvetica,Arial,sans-serif;
+	color: #444;
+	padding: 0px 0px 6px 0px;
+	font-size: 28px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+}
+	
+.jumbotron {
+  	background-color:  #e0e0e0 !important;
+  	padding-bottom: 20px !important;
+}
+
+.panel-heading{
+
+    border-color: #e7e7e7;
+    padding: 5px 20px;
+
+}
